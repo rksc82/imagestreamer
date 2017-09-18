@@ -1,0 +1,9 @@
+version: "2"
+services:
+
+   elasticsearch:
+      image: elasticsearch:2.3.5
+      mem_limit: 1500m
+      ports:
+        - "9200:9200"
+        - "9300:9300"
